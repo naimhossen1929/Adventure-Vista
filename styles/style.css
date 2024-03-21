@@ -1,0 +1,69 @@
+/* ------------------Shared stye----------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+:root{
+    --main-color:#FF5400;
+    --section-title-color:#131318;
+    --section-title-size:2.5rem;
+}
+/* --------------Nav-bar styles start here---------------- */
+nav{
+    padding: 3.2rem 8.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-content h3{
+    font-size: var(--section-title-size);
+    color: var(--section-title-color);
+}
+.nav-content h3 .vista{
+    color: var(--main-color);
+}
+#click, .menu-icon i{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-bar ul li a{
+    position: relative;
+    color: #424247;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 0.4rem 0.8rem;
+}
+.nav-bar ul li a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 0.22rem;
+    width: 100%;
+    background-color: var(--main-color);
+    bottom: -0.4rem;
+    border-radius: 2.5rem;
+    transform: scale(0);
+    transition: transform 0.4s ease;
+}
+
+.nav-bar ul li a:hover::after{
+    transform: scale(1);
+}
+.nav-bar ul li a:hover{
+    color: var(--section-title-color);
+    font-weight: 500;
+}

@@ -1,0 +1,88 @@
+/* ------------Mobile Devices------------ */
+
+@media screen and (max-width:600px) {
+    /* --navbar responsive--- */
+    nav{
+        padding: 1rem 1.5rem;
+    }
+    .nav-content h3{
+        font-size: 2rem;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        position: fixed;
+        top: 6.5rem;
+        left: -100%;
+        background: #092635;
+        height: 100vh;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+    .nav-bar ul li {
+        margin-top: 3.2rem;
+    }
+    .nav-bar ul li a{
+        color: #BAD7E9;
+    }
+    
+    .nav-bar ul li a:hover{
+        color: #fff;
+    }
+    nav .menu-icon i{
+        display: block;
+        /* margin-left: 6.5rem; */
+        color: #092635;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    #click:checked ~ .nav-bar ul {
+        left: 0%;
+    }
+    #click:checked ~ .menu-icon i::before{
+        content: "\f00d";
+    }
+}
+
+/* -------------Tablet or Medium devices -------------------- */
+@media screen and (min-width:601px) and (max-width:992px) {
+    /* --navbar responsive--- */
+    nav{
+        padding: 1rem 1.5rem;
+    }
+    .nav-content h3{
+        font-size: 2rem;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        position: fixed;
+        top: 6.5rem;
+        left: -100%;
+        background: #092635;
+        height: 100vh;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+    .nav-bar ul li {
+        margin-top: 3.2rem;
+    }
+    .nav-bar ul li a{
+        color: #BAD7E9;
+    }
+    
+    .nav-bar ul li a:hover{
+        color: #fff;
+    }
+    nav .menu-icon i{
+        display: block;
+        /* margin-left: 25.5rem; */
+        color: #092635;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    #click:checked ~ .nav-bar ul {
+        left: 0%;
+    }
+    #click:checked ~ .menu-icon i::before{
+        content: "\f00d";
+    }
+}
