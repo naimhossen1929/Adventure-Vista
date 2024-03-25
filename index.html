@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,17 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&family=Mulish:wght@200..1000&family=Poppins&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&family=Mulish:wght@200..1000&family=Poppins&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-<!-- favicon -->    
+    <!-- favicon -->
     <link rel="shortcut icon" href="Images/Group 40071 (2).png" type="image/x-icon">
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/cc2435fc76.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -27,20 +31,47 @@
             <label for="click" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
             <div class="nav-bar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Packages">Packages</a></li>
+                    <li><a href="#Testimonial">Testimonial</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
+        <!--------------- Banner section start here -------------------->
+        <section class="banner">
+           
+                
+                    <h2 class="banner-title">Discover The World's Wonders</h2>
+                    <p class="banner-description">Embark on unforgettable journeys with Adventure Vista, where every moment
+                    is an opportunity to explore the extraordinary.Discover the world's wonders, one adventure at a
+                    time, with Adventure Vista</p>
+                
+                <div class="input-field">
+                    <input type="text" placeholder="Where you go">
+                    <select required>
+                        <option value="" disabled selected hidden>When</option>
+                        <option value="0">Tomorrow</option>
+                        <option value="1">Next Week</option>
+                    </select>
+                    <select required>
+                        <option value="" disabled selected hidden>Select Type</option>
+                        <option value="0">Couple Tour</option>
+                        <option value="1">Family Tour</option>
+                        <option value="2">Friends Tour</option>
+                    </select>
+                    <button class="btn-primary find-now"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
 
+                </div>
+            
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

@@ -1,45 +1,65 @@
 /* ------------------Shared stye----------------- */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
 
-:root{
-    --main-color:#FF5400;
-    --section-title-color:#131318;
-    --section-title-size:2.5rem;
+:root {
+    --main-color: #FF5400;
+    --section-title-color: #131318;
+    --section-title-size: 2.5rem;
 }
+
+.btn-primary{
+    padding: 1rem 1.5rem;
+    background: var(--main-color);
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
 /* --------------Nav-bar styles start here---------------- */
-nav{
+nav {
     padding: 3.2rem 8.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-content{
+
+.nav-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
-.nav-content h3{
+
+.nav-content h3 {
     font-size: var(--section-title-size);
     color: var(--section-title-color);
 }
-.nav-content h3 .vista{
+
+.nav-content h3 .vista {
     color: var(--main-color);
 }
-#click, .menu-icon i{
+
+#click,
+.menu-icon i {
     display: none;
 }
-.nav-bar ul{
+
+.nav-bar ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.nav-bar ul li a{
+
+.nav-bar ul li a {
     position: relative;
     color: #424247;
     font-size: 1.1rem;
@@ -47,7 +67,8 @@ nav{
     margin-right: 2rem;
     padding: 0.4rem 0.8rem;
 }
-.nav-bar ul li a::after{
+
+.nav-bar ul li a::after {
     position: absolute;
     content: '';
     left: 0;
@@ -60,10 +81,64 @@ nav{
     transition: transform 0.4s ease;
 }
 
-.nav-bar ul li a:hover::after{
+.nav-bar ul li a:hover::after {
     transform: scale(1);
 }
-.nav-bar ul li a:hover{
+
+.nav-bar ul li a:hover {
     color: var(--section-title-color);
     font-weight: 500;
+}
+
+/*--------------------Banner section Styles start here ---------------------  */
+
+main {
+    margin: 3.2rem 8.5rem;
+}
+
+.banner {
+    text-align: center;
+    padding: 6.5rem 10rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: #FFF;
+}
+
+.input-field {
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-field input,
+.input-field select {
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 0.5rem;
+    border: none;
+    background: #FFF;
+}
+.find-now{
+    font-weight: 700;
+    font-size: 1rem;
 }
