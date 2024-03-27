@@ -501,3 +501,44 @@ margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 800;
 }
+/* -------------Footer section start ----------------- */
+footer{
+    margin-top: 6rem;
+    background: rgba(19, 19, 24, 0.05);
+    padding:6.75rem 17.75rem;
+    text-align: center;
+}
+.foot-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.foot-head h2{
+    color: #131318;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.foot-head .vista{
+    color: var(--main-color);
+}
+.foot-description{
+    color: #5A5A5D;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 1rem;
+}
+footer hr{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.copy{
+    color: #5A5A5D;
+}
+
