@@ -79,6 +79,21 @@
         width: 100%;
         object-fit: cover;
     }
+    /* -----Destination section styles----------- */
+    .destination-row{
+        flex-direction: column;
+    }
+    .destination-row img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .destination-row .kashmir img, .destination-row .srilanka img, .destination-row .america img,
+    .destination-row .bangladesh img, .destination-row .bandarban img, .destination-row .maldives img, .destination-row .indonesia img{
+        width:19.5rem;
+        height:11.76rem ;
+        border-radius: 0.5rem;
+    }
 
 }
 
@@ -157,5 +172,20 @@
     .popular{
         flex-direction: column;
     }
-    
+
+    /* --------------Destination section style---------- */
+    .destination-row{
+        flex-direction: column;
+    }
+    .destination-row img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .destination-row .kashmir img, .destination-row .srilanka img, .destination-row .america img,
+    .destination-row .bangladesh img, .destination-row .bandarban img{
+        width:35.81rem;
+        height:18.75rem ;
+        border-radius: 0.5rem;
+    }
 }
