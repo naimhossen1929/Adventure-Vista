@@ -318,3 +318,186 @@ main {
 .img-div img:hover{
     transform: scale(125%);
 }
+/* -----------------Deals section styles-------------- */
+.deals{
+    margin-top: 6rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+.deals > p{
+    color: #5A5A5D;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.deal-container{
+    background: url('../Images/Group\ 39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3.5rem;
+}
+.none-div{
+    width: 40%;
+}
+.content-div{
+    width: 60%;
+}
+.content-div{
+    text-align: left;
+    padding: 3rem;
+    border-radius: 1rem;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.icon-div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+.icon-div i{
+    color: var(--main-color);
+}
+.icon-div p{
+    color: #5A5A5D;
+}
+.content-div h5{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom: 1rem;
+}
+.content-div > p{
+    color: #5A5A5D;
+    margin-bottom: 1rem;
+}
+.content-div strong {
+    color: var(--main-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.content-div .btn-primary {
+    margin-top: 1.5rem;
+}
+.deal-container-2{
+    background: url('../Images/Group\ 40.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.deals > .btn-primary{
+    margin-top: 4rem;
+}
+
+/* -------------Video styles start--------------- */
+
+.video{
+    margin-top: 6rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.video-content{
+    width: calc((100% - 1.5rem) / 2);
+}
+.video-div{
+    width: calc((100% - 1.5rem) / 2);
+}
+.video-div img{
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.video  p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #5A5A5D;
+}
+.video ul li{
+    color: #131318;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.video  .btn-primary{
+    margin-top: 1rem;
+}
+/* ------------------Newsletter section start here------------- */
+.newsletter{
+    margin-top: 6rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+.news-content{
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    padding: 3rem;
+    height: 26.375rem;
+}
+.news-content h4{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.news-content p{
+    color: #5A5A5D;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.news-content hr{
+    background-color: #5A5A5D;
+}
+.news-content form input{
+    padding: 1rem 1.25rem;
+    color:#5A5A5D;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+.news-content form .btn-primary{
+    width: 100%;
+    padding: 1rem 1.25rem;
+}
+.news-img{
+    position: relative;
+}
+.save{
+    position: absolute;
+    text-align: center;
+    background: var(--main-color);
+    padding: 1.5rem;
+    height:6.5rem ;
+    width: 20.25rem;
+    border-radius: 1rem;
+    border: none;
+    color: #FFF;
+    bottom: 12%;
+    left: 51%;
+    transform: rotate(-19deg);
+}
+.save h5{
+    font-size: 2rem;
+    font-weight: 800;
+}

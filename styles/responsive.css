@@ -118,6 +118,41 @@
     .container-div{
         grid-template-columns: 1fr;
     }
+
+    /* --------Deals section ------------ */
+
+    .deal-container, .deal-container-2{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .content-div{
+        margin-top: 15rem;
+        width: 100%;
+    }
+    .icon-div{
+        flex-wrap: wrap;
+    }
+    /* -----------Video section----------- */
+    .video{
+        flex-direction: column;
+    }
+    .video-content, .video-div{
+        width: 100%;
+    }
+
+    /* ---------------Newsletter section ------------ */
+    .newsletter{
+        flex-direction: column;
+    }
+    .news-img img{
+        width: 100%;
+    }
+    .save{
+        bottom: 22%;
+    left: 11%;
+    height:5.5rem ;
+    width: 19.25rem;
+    }
 }
 
 /* -------------Tablet or Medium devices -------------------- */
@@ -233,5 +268,44 @@
     /* ------------Gallery section --------------- */
     .container-div{
         grid-template-columns: repeat(2,1fr);
+    }
+    /* --------Deals section ------------ */
+
+    .deal-container, .deal-container-2{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .content-div{
+        margin-top: 15rem;
+        width: 100%;
+    }
+    .icon-div{
+        flex-wrap: wrap;
+    }
+
+    /* -----------Video section----------- */
+    .video{
+        flex-direction: column;
+    }
+    .video-content, .video-div{
+        width: 100%;
+    }
+
+
+     /* ---------------Newsletter section ------------ */
+     .newsletter{
+        flex-direction: column;
+    }
+    .news-content{
+        width: 100%;
+    }
+    .news-img , .news-img img{
+        width: 100%;
+    }
+    .save{
+        bottom: 12%;
+        left: 51%;
+    height:5.5rem ;
+    width: 19.25rem;
     }
 }
