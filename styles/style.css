@@ -11,13 +11,14 @@
     --section-title-color: #131318;
     --section-title-size: 2.5rem;
 }
-.section-title{
+
+.section-title {
     color: var(--section-title-color);
     font-size: var(--section-title-size);
     font-weight: 800;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 1rem 1.5rem;
     background: var(--main-color);
     color: #FFF;
@@ -28,7 +29,8 @@
     cursor: pointer;
     transition: all 0.5s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: #FFF;
     border: 2px solid var(--main-color);
     color: var(--main-color);
@@ -149,62 +151,138 @@ main {
     border: none;
     background: #FFF;
 }
-.find-now{
+
+.find-now {
     font-weight: 700;
     font-size: 1rem;
 }
 
 /* ---------------------Popular section style start here----------------------- */
-.popular{
+.popular {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
 }
-.popular-content p{
+
+.popular-content p {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     color: #5A5A5D;
 }
-.popular-content ul li{
+
+.popular-content ul li {
     margin-left: 1.3rem;
     color: #5A5A5D;
     margin-bottom: 1rem;
 }
 
 /* --------------Destination Styles start here------------------ */
-.destination{
+.destination {
     margin-top: 6.5rem;
     text-align: center;
 }
-.destination p{
+
+.destination p {
     color: #5A5A5D;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
-.destination-row{
+
+.destination-row {
     display: flex;
     align-items: center;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.maldives,.indonesia, .srilanka, .america, .kashmir, .bangladesh, .bandarban{
+
+.maldives,
+.indonesia,
+.srilanka,
+.america,
+.kashmir,
+.bangladesh,
+.bandarban {
     position: relative;
 }
-.destination-row h5{
-    
+
+.destination-row h5 {
+
     color: #FFF;
     font-size: 2rem;
-    font-weight:800;
+    font-weight: 800;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-      
+
 }
 
+/* -----------Choose section start here------------- */
+.choose {
+    margin-top: 6.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
 
+.choose-description {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: #5A5A5D;
+}
 
+.choose-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 
+}
 
+.container-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-des {
+    color: #5A5A5D;
+}
+
+.hotel {
+    width: calc((100% - 1.5rem) / 2);
+    height: 20rem;
+    text-align: left;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+.services {
+    width: calc((100% - 1.5rem) / 2);
+    height: 20rem;
+    text-align: left;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+}
+
+.choose-container-2 {
+    margin: 1.5rem 17.72rem  0 17.72rem;
+    
+}
+
+.price {
+    width: 33.9rem;
+    height: 20rem;
+    text-align: left;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 2rem;
+}
