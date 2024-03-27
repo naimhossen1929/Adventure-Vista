@@ -113,6 +113,11 @@
         height: 100%;
         width: 100%;
     }
+
+    /* ------------Gallery section --------------- */
+    .container-div{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* -------------Tablet or Medium devices -------------------- */
@@ -223,5 +228,10 @@
     .price{
         height: 100%;
         width: 100%;
+    }
+
+    /* ------------Gallery section --------------- */
+    .container-div{
+        grid-template-columns: repeat(2,1fr);
     }
 }
