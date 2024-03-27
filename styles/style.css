@@ -11,6 +11,11 @@
     --section-title-color: #131318;
     --section-title-size: 2.5rem;
 }
+.section-title{
+    color: var(--section-title-color);
+    font-size: var(--section-title-size);
+    font-weight: 800;
+}
 
 .btn-primary{
     padding: 1rem 1.5rem;
@@ -21,6 +26,12 @@
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.btn-primary:hover{
+    background: #FFF;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
 }
 
 /* --------------Nav-bar styles start here---------------- */
@@ -64,7 +75,7 @@ nav {
     color: #424247;
     font-size: 1.1rem;
     text-decoration: none;
-    margin-right: 2rem;
+    margin-left: 2rem;
     padding: 0.4rem 0.8rem;
 }
 
@@ -141,4 +152,26 @@ main {
 .find-now{
     font-weight: 700;
     font-size: 1rem;
+}
+
+/* ---------------------Popular section style start here----------------------- */
+.popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.popular-content p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #5A5A5D;
+}
+.popular-content ul li{
+    margin-left: 1.3rem;
+    color: #5A5A5D;
+    margin-bottom: 1rem;
+}
+.popular-img img{
+    width: 100%;
+    object-fit: cover;
 }

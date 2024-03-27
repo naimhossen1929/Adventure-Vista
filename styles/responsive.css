@@ -70,6 +70,12 @@
     .input-field input, .input-field select, .input-field .btn-primary{
         width: 100%;
     }
+
+    /* ---------Popular tour section-------- */
+    .popular{
+        flex-direction: column;
+    }
+
 }
 
 /* -------------Tablet or Medium devices -------------------- */
@@ -143,4 +149,9 @@
     .input-field input, .input-field select, .input-field .btn-primary{
         width: 100%;
     }
+    /* ---------Popular section ------- */
+    .popular{
+        flex-direction: column;
+    }
+    
 }
